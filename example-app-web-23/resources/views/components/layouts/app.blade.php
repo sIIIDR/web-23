@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <img src="{{ asset('assets/background.jpg') }}"
-        class="bg-no-repeat bg-fixed object-cover blur-md absolute top-0 -z-10 h-screen" />
+    {{-- <img src="{{ asset('assets/background.jpg') }}"
+        class="bg-no-repeat bg-fixed object-cover blur-md absolute top-0 -z-10 h-screen" /> --}}
     <x-header />
     {{ $slot }}
     @livewireScripts
